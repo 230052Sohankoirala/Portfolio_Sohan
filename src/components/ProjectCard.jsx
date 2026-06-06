@@ -41,13 +41,7 @@ const ProjectCard = ({ project, index }) => {
 
                 {/* Links */}
                 <div className="flex gap-4">
-                    <a
-                        href={project.link}
-                        className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
-                    >
-                        <ExternalLink size={18} />
-                        <span>Live Demo</span>
-                    </a>
+
                     <a
                         href={project.github}
                         className="flex items-center gap-2 text-gray-400 hover:text-white transition"
