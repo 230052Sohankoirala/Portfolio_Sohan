@@ -1,15 +1,7 @@
 export const projects = [
+
   {
     id: 1,
-    title: "Personal Portfolio",
-    description: "A responsive portfolio built with React, Tailwind CSS, and Framer Motion to present my education, skills, and project work.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
-
-    github: "#"
-  },
-  {
-    id: 2,
     title: "AI Study Assistant",
     description: "A concept project for organizing study notes, generating summaries, and helping students revise important topics faster.",
     technologies: ["React", "JavaScript", "AI Concepts", "REST API"],
@@ -18,16 +10,16 @@ export const projects = [
     github: "#"
   },
   {
-    id: 3,
+    id: 2,
     title: "Task Tracker",
     description: "A simple productivity app for creating tasks, tracking progress, and practicing state management with a clean user interface.",
     technologies: ["React", "Tailwind CSS", "Local Storage"],
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=300&fit=crop",
 
-    github: "#"
+    github: "https://github.com/230052Sohankoirala/Task_management.git"
   },
   {
-    id: 4,
+    id: 3,
     title: "Weather Dashboard",
     description: "A weather interface that uses API data to show current conditions and forecasts in a responsive dashboard layout.",
     technologies: ["JavaScript", "REST API", "CSS", "Responsive Design"],
@@ -36,7 +28,7 @@ export const projects = [
     github: "#"
   },
   {
-    id: 5,
+    id: 4,
     title: "Student Result System",
     description: "A practice academic project for managing student records, marks, and result summaries with simple CRUD workflows.",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
@@ -45,7 +37,7 @@ export const projects = [
     github: "#"
   },
   {
-    id: 6,
+    id: 5,
     title: "Learning Notes App",
     description: "A lightweight notes project focused on organizing programming topics, search, and reusable UI components.",
     technologies: ["React", "JavaScript", "Tailwind CSS"],
